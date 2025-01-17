@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <p>has almost completed the</p>
       <h3>${courseName} Course</h3>
       <p>with lengendary perserverance and world-class bad-assert for never giving up 🏆</p>
-      <img src="./logo.png" style="width:40%; height:10%" alt="codespace logo and mission"/>
+      <img src="./logo.png" alt="codespace logo and slogan"/>
       <p>${personalMessage}</p>
     `;
     
