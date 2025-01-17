@@ -113,3 +113,27 @@ button:hover {
   background-color: #5d5f5e;
 }
 
+/*Personal Edits to enhance user experience*/
+/*--------Media Queries and Alignments-------------*/
+#cardForm 
+{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+img
+{
+  object-fit: contain;
+  max-width: 45%;
+}
+/*Tablet and Mobile Devices*/
+@media (max-width: 1000px) 
+{
+  img
+  {
+    object-fit: contain;
+    min-width: 170px;
+  }
+}
