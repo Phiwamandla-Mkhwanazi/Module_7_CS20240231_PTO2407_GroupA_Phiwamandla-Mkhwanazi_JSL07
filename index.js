@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const personalMessage = personalMessageInput.value;
       const courseName = courseNameInput ? courseNameInput.value : "a course"; // Fallback to "a course" if no input
   
-      if (studentName.trim() === '' || personalMessage.trim() === '') {
+      if (studentName.trim() === '' || personalMessage.trim() === '' || courseName.trim() === '') {
         alert('Please fill in all fields');
         return;
       }
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
       //  Display the modal
       modal.style.display = 'block';
   
-      // Clear the form inputs
+      // 🚨 Clear the form inputs
       studentNameInput.value = '';
       personalMessageInput.value = '';
       if(courseNameInput) courseNameInput.value = '';
